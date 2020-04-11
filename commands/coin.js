@@ -8,7 +8,7 @@ const coin = {
             const key = keyManager.getKey();
             const cryptoApi = new CryptoAPI(key);
 
-            const coinData = await cryptoApi.getCoinData(options.coin, options.cur);
+            const coinData = await cryptoApi.getCoinData(options);
 
             console.log(coinData);
         } catch (error) {
