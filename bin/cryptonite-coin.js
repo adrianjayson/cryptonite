@@ -10,11 +10,4 @@ program
     .option('--verbose <boolean>', 'Includes additional data (works when asking for single cryptocurrency only).', false)
     .action((options) => coin.update(options));
 
-// program
-//     .command('price')
-//     .description("Inquire price of coins")
-//     .option('--coin <type>', 'Choose a cryptocurrency', 'BTC,ETH,XRP,USDT,BCH')
-//     .option('--cur <currency>', 'Change the currency', 'USD')
-//     .action((options) => coin.update(options));
-
 program.parse(process.argv);
