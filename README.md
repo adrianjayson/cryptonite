@@ -5,7 +5,7 @@ Cryptonite is a Node.js based CLI app for getting cryptocurrency market updates.
 ## Installation
 
  1. Clone this repo.
- 2. cd into the apps directory and install dependencies.
+ 2. cd into the app's directory and install dependencies.
  
 	 `npm install`
    
